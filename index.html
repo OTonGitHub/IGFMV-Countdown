@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IGF MV 2024 Countdown</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
       rel="stylesheet"
     />
     <!-- Maybe download? Nah, Akamai local cache -->
@@ -28,7 +30,13 @@
       <div class="live-stream-container">
         <p class="live-stream-text">LIVE STREAM STARTING IN</p>
         <div class="countdown">
-          <span class="countdown-time">11:25:27</span>
+          <span id="days" class="countdown-time"></span>
+          <span class="countdown-time">:</span>
+          <span id="hours" class="countdown-time"></span>
+          <span class="countdown-time">:</span>
+          <span id="minutes" class="countdown-time"></span>
+          <span class="countdown-time">:</span>
+          <span id="seconds" class="countdown-time"></span>
         </div>
       </div>
     </div>

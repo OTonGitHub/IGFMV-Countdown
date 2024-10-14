@@ -67,6 +67,12 @@ html {
   padding-top: 0.5vh;
 }
 
+.live-stream-text {
+  font-weight: 900;
+  font-size: 2.5vw;
+  letter-spacing: 0.15vw;
+}
+
 .countdown {
   margin-top: -1vh;
 }
