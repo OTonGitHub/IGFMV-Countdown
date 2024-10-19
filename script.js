@@ -1,5 +1,5 @@
 const countdownTo = new Date('October 19, 2024 00:09:00').getTime();
-const targetDate = new Date(Date.UTC(2024, 9, 19, 4, 0, 0)); // October 19, 2024, 00:09:00 GMT+5 (4AM UTC)
+const targetDate = new Date(Date.UTC(2024, 9, 19, 8, 55, 0)); // October 19, 2024, 00:09:00 GMT+5 (4AM UTC)
 
 const countdownInterval = setInterval(function () {
   const now = new Date().getTime();
